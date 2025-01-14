@@ -51,6 +51,7 @@ width: 5px;
   }
   .Add-page{
     font-size: 5vw;
+    border-radius: 0%;
   }
   .contacts-display {
     width: 100%;
@@ -60,6 +61,7 @@ width: 5px;
   .Contact-header{
     padding: 0px 8vw;
     font-size: 7vw;
+    height: 9%;
   }
   .Contact-image{
     width: 18vw;
@@ -80,6 +82,7 @@ width: 5px;
   }
   .Navbar{
     padding: 0px 4vw;
+    height: 15%;
   }
   .Edit-form{
     padding: 0px 4vw;
@@ -90,6 +93,7 @@ width: 5px;
     font-weight: .5vw;
     display: flex;
     justify-items: center;
+    height: 10%;
   }
   .edit-back{
     font-size: 10vw;
@@ -108,5 +112,12 @@ width: 5px;
   }
   .inputt{
     width: 50%;
+  }
+  .Edit{
+    font-size: 8vw;
+  }
+  .Delete{
+    font-size: 8vw;  
+    margin-left: 5vw;
   }
 }

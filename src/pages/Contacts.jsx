@@ -26,9 +26,9 @@ const Contacts = () => {
             </div>
             <div className='w-[20%] h-full flex justify-center items-center'>
             <Link to={`/contacts/${item.id}`} >
-              <i className="ri-pencil-line text-black text-2xl "></i>
+              <i className="Edit ri-pencil-line text-black text-2xl "></i>
             </Link>
-            <i onClick={()=>dispatch(deleteContact(item.id))} className="ri-delete-bin-6-line text-2xl ml-[1vw] cursor-pointer"></i>
+            <i onClick={()=>dispatch(deleteContact(item.id))} className="Delete ri-delete-bin-6-line text-2xl ml-[1vw] cursor-pointer"></i>
             </div>
           </div>
           }): <div className='flex flex-col items-center pt-[8vw] h-full font-semibold text-2xl'><h1>No contacts added yet...</h1> <p>😿</p></div>}
