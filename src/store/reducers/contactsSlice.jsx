@@ -11,6 +11,7 @@ const contactsSlice = createSlice({
   reducers: {
     addContact: (state, action) => {
       state.data.push(action.payload);
+      console.log(state.data);
     },
     updatecontacts: (state, action) => {
       const index = state.data.findIndex(
