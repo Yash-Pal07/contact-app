@@ -102,7 +102,7 @@ const AddContact = () => {
 
            {/* Full Name */}
            <div className="flex justify-between gap-3 items-center">
-            <label htmlFor="name" className="block text-lg font-semibold mb-1 text-nowrap">
+            <label htmlFor="name" className="element block text-lg font-semibold mb-1 text-nowrap">
               Full Name : 
             </label>
             <input
@@ -111,13 +111,13 @@ const AddContact = () => {
               id="name"
               type="text"
               placeholder="Enter full name"
-              className=" px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+              className="inputt px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
             />
           </div>
 
           {/* Email */}
           <div className="flex justify-between gap-3 items-center">
-            <label htmlFor="email" className="block text-lg font-semibold mb-1 text-nowrap">
+            <label htmlFor="email" className="element block text-lg font-semibold mb-1 text-nowrap">
               Email : 
             </label>
             <input
@@ -126,13 +126,13 @@ const AddContact = () => {
               id="email"
               type="email"
               placeholder="Enter email address"
-              className=" px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+              className="inputt px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
             />
           </div>
 
           {/* Phone */}
           <div className="flex justify-between gap-3 items-center">
-            <label htmlFor="phone" className="block text-lg font-semibold mb-1 text-nowrap">
+            <label htmlFor="phone" className="element block text-lg font-semibold mb-1 text-nowrap">
               Ph. Number : 
             </label>
             <input
@@ -141,13 +141,13 @@ const AddContact = () => {
               id="phone"
               type="tel"
               placeholder="Enter phone number"
-              className=" px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+              className="inputt px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
             />
           </div>
 
           {/* Address */}
           <div className="flex justify-between gap-3 items-center">
-            <label htmlFor="address" className="block text-lg font-semibold mb-1 text-nowrap">
+            <label htmlFor="address" className="element block text-lg font-semibold mb-1 text-nowrap">
               Address : 
             </label>
             <textarea
@@ -155,7 +155,7 @@ const AddContact = () => {
             value={address}
               id="address"
               placeholder="Enter address"
-              className=" px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 resize-none h-[60px]"
+              className="inputt px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 resize-none h-[60px]"
             ></textarea>
           </div>
 

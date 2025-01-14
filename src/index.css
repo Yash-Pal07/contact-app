@@ -102,4 +102,11 @@ width: 5px;
     width: 20vw;
     height: 20vw;
   }
+  .element{
+    width: 40%;
+    text-overflow: ellipsis;
+  }
+  .inputt{
+    width: 50%;
+  }
 }
