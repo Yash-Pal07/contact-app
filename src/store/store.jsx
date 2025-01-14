@@ -24,9 +24,7 @@ export const store = configureStore({
   reducer: {
     contacts: contactsSlice,
   },
-  preloadedState: {
-    contacts: loadfromLocalStorage() || {} // Provide a default fallback
-  },
+  preloadedState:  loadfromLocalStorage() || {},
 })
 
 store.subscribe(() => {
