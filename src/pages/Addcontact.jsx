@@ -60,7 +60,7 @@ const AddContact = () => {
   };
 
   return (
-    <div className="Add-page w-full h-full bg-gray-400 shadow-lg rounded-lg">
+    <div className="Add-page w-full h-full bg-gray-100 shadow-lg rounded-lg">
       <div className="Contact-header h-[15%] w-full border-b-[2px] border-gray-300 text-2xl font-semibold flex justify-start px-[2vw] items-center bg-blue-200">
         Contact
       </div>
