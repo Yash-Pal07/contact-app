@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-/* @font-face {
-  font-family: "Gilroy";
-  src: url();
-}; */
+@font-face {
+  font-family: "gil";
+  src: url("./assets/gilroy");
+}
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@
 html,body {
   height: 100%;
   width: 100%;
-  font-family: "Gilroy";
+  font-family: "gil";
 }
 
 .Main{
