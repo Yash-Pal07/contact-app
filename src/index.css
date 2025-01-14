@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/public/gilroy\ font);
+  src: url(/public/gilroy);
 };
 
 
@@ -16,7 +16,7 @@ box-sizing: border-box;
 html,body {
 height: 100%;
 width: 100%;
-font-family: "gilroy";
+font-family: "Gilroy";
 }
 
 .Main{
