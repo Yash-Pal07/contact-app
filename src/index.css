@@ -12,7 +12,7 @@
 html,body {
   height: 100%;
   width: 100%;
-  font-family: "Gilroy";
+  /* font-family: "Gilroy"; */
 }
 @font-face {
   font-family: "Gilroy";
