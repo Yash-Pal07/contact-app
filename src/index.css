@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+html,body {
+height: 100%;
+width: 100%;
+font-family: gilroy;
+}
+
+.Main{
+  background: linear-gradient(to top right, rgb(254, 201, 201), rgb(203, 231, 249), rgb(232, 254, 212));
+}
+
+.Contact::-webkit-scrollbar{
+background-color: rgb(198, 198, 198);
+width: 5px;
+
+}
+
+.Contact::-webkit-scrollbar-thumb{
+  background-color: rgb(147, 147, 147);
+  border-radius: 10vw;
+}
+.Contact::-webkit-scrollbar-track{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10vw;
+}
+
+@media only screen and (max-width: 1024px){
+  .Outer-div{
+    height: 100%;
+    width: 100%;
+  }
+  .Image-View{
+    width: 18vw;
+    height: 18vw;
+  }
+  .Add-page{
+    font-size: 5vw;
+  }
+  .contacts-display {
+    width: 100%;
+    height: 30vw;
+    padding: 8vw;
+  }
+  .Contact-header{
+    padding: 0px 8vw;
+    font-size: 7vw;
+  }
+  .Contact-image{
+    width: 18vw;
+    height: 18vw;
+  }
+  .contact-name{
+    font-size: 7vw;
+    margin-left: 5vw;
+  }
+  .nav-search{
+    width: 75%;
+    height: 40%;
+    padding: 0vw 5vw;
+  }
+  .nav-image{
+    width: 15vw;
+    height: 15vw;
+  }
+  .Navbar{
+    padding: 0px 4vw;
+  }
+  .Edit-form{
+    padding: 0px 4vw;
+    font-size: 5vw;
+  }
+  .edit-head{
+    padding: 0vw 5vw;
+    font-weight: .5vw;
+    display: flex;
+    justify-items: center;
+  }
+  .edit-back{
+    font-size: 10vw;
+    margin-right: 2vw;
+  }
+  .edit-header-text{
+    font-size: 7vw;
+  }
+  .edit-Image-View{
+    width: 20vw;
+    height: 20vw;
+  }
+}
