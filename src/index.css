@@ -5,8 +5,10 @@
 
 @font-face {
   font-family: "gil";
-  src: url("./assets/gilroy");
+  src: url("../src//assets/gilroy/Gilroy-Medium.otf") format("woff2"), 
+       url("/assets/gilroy-font/gilroy.woff") format("woff");
 }
+
 
 * {
   margin: 0;
@@ -16,7 +18,7 @@
 html,body {
   height: 100%;
   width: 100%;
-  /* font-family: "gil"; */
+  font-family: "gil";
 }
 
 .Main{
