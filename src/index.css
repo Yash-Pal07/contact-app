@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gilroy";
+}
 @font-face {
   font-family: "Gilroy";
   src: url(/public/gilroy);
 };
-
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
- }
-html,body {
-height: 100%;
-width: 100%;
-font-family: "Gilroy";
-}
 
 .Main{
   background: linear-gradient(to top right, rgb(254, 201, 201), rgb(203, 231, 249), rgb(232, 254, 212));
